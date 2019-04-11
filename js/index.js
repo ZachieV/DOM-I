@@ -134,7 +134,7 @@ let i;
 for (i = 0; i < aTags.length; i++) {
   aTags[i].style.color = "red";
 }
-
+//
 aTags.forEach(element => {
-  element.style.color = 'blue';
+  element.style.color = 'green';
 });
