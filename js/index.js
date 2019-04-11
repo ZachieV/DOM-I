@@ -133,8 +133,8 @@ home.textContent = 'Home';
 home.style.color = 'green';
 nav.prepend(home);
 
-const design = document.createElement('a');
-design.src = '#';
-design.textContent = 'Design'
-design.style.color = 'green';
-nav.appendChild(design);
+const blog = document.createElement('a');
+blog.src = '#';
+blog.textContent = 'Blog'
+blog.style.color = 'green';
+nav.appendChild(blog);
